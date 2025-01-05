@@ -16,7 +16,7 @@ export default function Subscriptions() {
                 width={'100%'} 
                 display={'flex'}
                 margin={'auto'}
-                height={{xs: 'fit-content', md: '600px', xl:'1000px'}} 
+                height={{xs: '220px', md: '600px', xl:'1000px'}} 
                 position={{xs: 'relative', xl:'fixed'}}
                 sx={{opacity: 0.3}}
                 zIndex={-1}
