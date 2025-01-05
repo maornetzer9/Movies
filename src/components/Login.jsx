@@ -142,7 +142,7 @@ export default function Login() {
 
                 {localError.general && <Alert severity="error">{ localError.general }</Alert>}
 
-                <Button type="submit" fullWidth variant="contained">
+                <Button type="submit" fullWidth variant="contained" disabled={ loading ? true : false }>
                     {!loading ? "Login" : "Logging..."}
                 </Button>
                 <Typography sx={{ textAlign: "center" }}>
