@@ -4,7 +4,7 @@ import DeleteForeverTwoToneIcon from "@mui/icons-material/DeleteForeverTwoTone";
 import { Alert, Box, Slide, Table, TableBody, TableCell, TableHead, TableRow, Tooltip, Typography } from "@mui/material";
 import { useDispatch } from "react-redux";
 import { useLocalError } from "../../hooks/error";
-import NewSubscription from "./newSubscription";
+import NewSubscription from "./NewSubscription";
 import PermissionButton from "../UI/PermissionButton";
 import { deleteMemberById } from "../../services/members";
 import { Link } from "react-router-dom";
