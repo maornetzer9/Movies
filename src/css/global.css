@@ -1,0 +1,30 @@
+:root {
+    padding: 0;
+    margin: 0 auto;
+    color-scheme: light dark;
+    scroll-behavior: smooth;
+}
+
+.flex-box-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-box-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.bg-color-card {
+    background-color: rgba(211, 211, 211, 0.849);
+}
+
+
+.nagishli-widget-class {
+    left: 0;
+    background-color: red !important;
+}
