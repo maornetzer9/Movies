@@ -18,7 +18,7 @@ export default function Subscriptions() {
                 margin={'auto'}
                 height={{xs: '220px', md: '600px', xl:'1000px'}} 
                 position={{xs: 'relative', xl:'fixed'}}
-                sx={{opacity: 0.3}}
+                sx={{opacity: {xs: 0.5, md: 0.3, xl: 0.3}}}
                 zIndex={-1}
             />
                 <Members/>
